@@ -1,0 +1,59 @@
+<?php require("sessao.php"); ?>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+	<link rel="icon" type="image/png" href="iconesite.png">
+
+	<link rel="stylesheet" type="text/css" href="styleconfirmacad.css">
+
+	<title>FirstAid.Com</title>
+
+</head>
+
+<body>
+
+
+
+	<div class="fotofundo">
+
+		<div class="container">
+
+			<span>INSIRA O TOKEN ENVIADO EM SEU E-MAIL</span>
+
+			<form name="login" method="POST" action="cadusuario.php">
+
+				<input type="text" class="inputtoken" name="tokenDigitado" require="true" placeholder="Digite o token:">
+
+				<input type="submit" name="btnEnvio" value="ENVIAR">
+
+				<input type="button" class="cancelaformulario" value="CANCELAR" onclick="window.location.href='index.html'"></input>
+			</form>
+
+
+		</div>
+
+		<div class="titulo">
+
+			<img class="iconesite" src="iconesite.png">
+
+			<div class="titulotexto">
+
+				FIRST AID.COM
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

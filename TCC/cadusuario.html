@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="iconesite.png">
+    <link rel="stylesheet" type="text/css" href="stylecadastro.css">
+    <title>FirstAid.Com</title>
+</head>
+<body>
+    <div class="titulo">
+
+        <img class="iconesite" src="iconesite.png">
+
+        <div class="titulotexto">
+            FIRST AID.COM
+        </div>
+
+        </div>
+    </div>
+    <div id="caixalogin" class="caixalogin">
+        <div class="titulologin">
+            CADASTRO DE USUARIO
+        </div>
+
+        <div class="campoformulario">
+            <form name="login" method="POST" action="confirmacad.php" onsubmit="return validaFormulario();">
+                <input class="inputemail" type="text" name="email" placeholder="EMAIL"><br>
+                <input class="inputnome" type="text" name="nome" placeholder="NOME"><br>
+                <input class="inputsenha" type="password" name="senha" placeholder="SENHA" id="senha">
+                <input class="inputconfirmasenha" type="password" name="confirmasenha" id="confirmasenha" placeholder="CONFIRMAR SENHA"><br>
+                <span class="iconeolho"><i class="bi bi-eye-fill" id="btnsenha" onclick="mostrasenha()"></i></span><br>
+                <span class="iconeemail"><i class="bi bi-envelope-fill"></i></span>
+                <span class="iconeusuario"><i class="bi bi-person-circle"></i></span>
+            </div>
+            
+            <input class="enviaformulario" type="submit" name="btnEnvio" value="ENVIAR">
+        </form>
+           <button class="cancelaformulario" onclick="window.location.href='index.html'">Cancelar</button>
+    </div>
+    <script type="text/javascript">
+        function mostrasenha() {
+            let inputPass = document.getElementById('senha');
+            let inputPass2 = document.getElementById('confirmasenha');
+            let btnmostrasenha = document.getElementById('btnsenha');
+
+            if (inputPass.type === 'password') {
+                inputPass.setAttribute('type', 'text');
+                inputPass2.setAttribute('type', 'text');
+                btnmostrasenha.classList.replace('bi-eye-fill', 'bi-eye-slash');
+            } else {
+                inputPass.setAttribute('type', 'password');
+                inputPass2.setAttribute('type', 'password');
+                btnmostrasenha.classList.replace('bi-eye-slash', 'bi-eye-fill');
+            }
+        }
+
+        function validaFormulario() {
+            let email = document.forms["login"]["email"].value;
+            let nome = document.forms["login"]["nome"].value;
+            let senha = document.forms["login"]["senha"].value;
+            let confirmasenha = document.forms["login"]["confirmasenha"].value;
+
+            if (email === "" || nome === "" || senha === "" || confirmasenha === "") {
+                alert("Por favor, preencha todos os campos.");
+                return false;
+            }
+            if (senha !== confirmasenha){
+                alert("Senhas não coeencidem.");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

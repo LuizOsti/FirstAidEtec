@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+  background-color: #1a1a1a;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("fundo.gif");
+}
+.titulo {
+  border: 3px solid black;
+  color: white;
+  left: 0px;
+  top: 0px;
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+.titulotexto {
+  position: relative;
+  top: 15px;
+  left: -50px;
+  float: left;
+  width: 390px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.iconesite {
+  left: 420px;
+  top: 10px;
+  float: left;
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+.textopagina {
+  backdrop-filter: blur(70px);
+  top: 30px;
+  position: relative;
+  font-family: arial;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 60px;
+  color: white;
+  border: 2px solid white;
+}
+.imagemlogin {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: 275px;
+  top: 50px;
+}
+
+.caixalogin {
+  border: 2px solid white;
+  width: 650px;
+  height: 500px;
+  background-color: none;
+  border-radius: 8px;
+  position: relative;
+  justify-content: center;
+  backdrop-filter: blur(40px);
+}
+.campoformulario input::placeholder {
+  color: white;
+  overflow: visible;
+  position: absolute;
+  transition: 0.7s ease-in-out;
+  left: 45%;
+}
+
+.campoformulario {
+  width: 100%;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.campoformulario input {
+  color: white;
+  background: transparent;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 60px;
+  width: 250px;
+  margin: 6px;
+  transition-duration: 0.7s;
+  text-align: center;
+}
+.inputemail {
+  left: -155px;
+  color: white;
+}
+.inputnome {
+  left: -155px;
+  color: white;
+}
+.inputemail:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.inputnome:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.inputnome:hover::placeholder {
+  color: white;
+}
+
+.inputsenha {
+  top: -143px;
+  left: 290px;
+  color: white;
+}
+.campoformulario .inputsenha::placeholder {
+  left: 40%;
+}
+
+.inputsenha:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+.inputsenha:hover::placeholder {
+  color: white;
+}
+.inputconfirmasenha {
+  top: -70px;
+  left: 23px;
+  color: white;
+}
+.campoformulario .inputconfirmasenha::placeholder {
+  left: 26%;
+}
+.campoformulario .inputconfirmasenha:hover::placeholder {
+  left: 26%;
+  color: white;
+}
+.inputconfirmasenha:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.enviaformulario {
+  left: 3%;
+  border-radius: 10px;
+  color: white;
+  top: 0px;
+  position: relative;
+  background: transparent;
+  border: 2px solid white;
+  font-size: 20px;
+  cursor: pointer;
+  height: 60px;
+  width: 300px;
+  transition-duration: 0.7s;
+}
+.enviaformulario:hover {
+  border-color: black;
+  background-color: white;
+  color: black;
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 50px 5px #ffffff;
+}
+.titulologin {
+  width: 425px;
+  left: 100px;
+  position: relative;
+  top: 35px;
+  color: white;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.botaocadastro {
+  position: relative;
+  color: white;
+  top: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.caixalogin i {
+  font-size: 26px;
+  color: white;
+}
+.iconeemail {
+  height: 150px;
+  background-color: black;
+  border-radius: 30px;
+  z-index: 1;
+  top: -225px;
+  left: -235px;
+  position: relative;
+}
+.iconeolho {
+  z-index: 1;
+  top: -195px;
+  left: 250px;
+  position: relative;
+}
+.iconeusuario {
+  background-color: black;
+  border-radius: 20px;
+  z-index: 1;
+  position: relative;
+  top: -155px;
+  right: 266px;
+}
+.cancelaformulario {
+  left: 3%;
+  border-radius: 10px;
+  color: white;
+  top: 0px;
+  position: relative;
+  background: transparent;
+  border: 2px solid white;
+  font-size: 20px;
+  cursor: pointer;
+  height: 60px;
+  width: 300px;
+  transition-duration: 0.7s;
+}
+.cancelaformulario:hover {
+  border-color: black;
+  background-color: white;
+  color: black;
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 50px 5px #ffffff;
+}

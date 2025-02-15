@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-size: cover;
+  background-size: 1920px 1080px;
+  background-image: url("fundo.gif");
+  position: relative;
+  background-position: center;
+}
+.titulo {
+  align-items: center;
+  gap: 80px;
+  display: flex;
+  border: 3px solid black;
+  color: white;
+  left: 0px;
+  top: 0px;
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+.titulotexto {
+  gap: 10px;
+  flex-direction: row;
+  display: flex;
+  width: 480px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.iconesite {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+.botaousuario {
+  margin-right: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  transition-duration: 0.5s;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.imagemusuario {
+  width: 100%;
+  height: 100%;
+}
+.botaousuario:hover {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 30px 5px #ffffff;
+}
+.botaoheader {
+  gap: 20px;
+  display: flex;
+  width: 500px;
+  height: 100px;
+}
+form {
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  height: 80px;
+  width: 280px;
+}
+form .input-pesquisa {
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  width: 300px;
+  height: 40px;
+}
+form .input-pesquisa::placeholder {
+  font-size: 20px;
+  color: white;
+}
+form .input-envia {
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  width: 65px;
+  height: 43px;
+}
+form .input-envia:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.about {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.about:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+}
+.about:hover i {
+  color: black;
+}
+.services {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.services:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid white;
+}
+.services:hover i {
+  color: black;
+}
+.contact {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.contact:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid white;
+}
+.contact:hover i {
+  color: black;
+}
+.clients {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.clients:hover {
+  text-decoration: underline;
+  background-color: white;
+  border: 1px solid white;
+}
+.clients:hover i {
+  color: black;
+}
+i {
+  color: white;
+  font-size: 35px;
+}
+span {
+  font-size: 20px;
+}
+.container {
+  
+  flex-wrap: wrap;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+.comum {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nicole {
+  align-items: baseline;
+  display: flex;
+  margin-bottom: 10px;
+  width: 380px;
+  height: 380px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+.textonicole {
+  padding: 20px;
+  backdrop-filter: blur(40px);
+
+  border: 2px solid white;
+  width: 500px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.osti {
+  width: 380px;
+  height: 380px;
+  border: 2px solid white;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.textoosti {
+  padding: 20px;
+  backdrop-filter: blur(40px);
+
+  border: 2px solid white;
+  width: 500px;
+
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rick {
+  width: 380px;
+  height: 380px;
+  border: 2px solid white;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.textorick {
+  padding: 20px;
+  backdrop-filter: blur(40px);
+
+  border: 2px solid white;
+  width: 500px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fusca {
+  width: 380px;
+  height: 380px;
+  border: 2px solid white;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.textofusca {
+  padding: 20px;
+  backdrop-filter: blur(40px);
+
+  border: 2px solid white;
+  width: 500px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.beatriz {
+  width: 380px;
+  height: 380px;
+  border: 2px solid white;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.textobeatriz {
+  padding: 20px;
+  backdrop-filter: blur(40px);
+
+  border: 2px solid white;
+  width: 500px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.guilherme {
+  width: 380px;
+  height: 380px;
+  border: 2px solid white;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.textoguilherme {
+  backdrop-filter: blur(40px);
+
+  border: 2px solid white;
+  width: 500px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.qr-code
+{
+  flex-direction: row;
+  display: flex;
+  width: 640px;
+  height: 300px;
+  
+}
+.qr-code img
+{
+  
+  margin: 20px;
+  max-width: 300px;
+  height: 300px;
+}
+.qr-code span
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+}

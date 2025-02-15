@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fotofundo {
+  background-image: url("fundo.gif");
+  width: 100%;
+  height: 160vh;
+  position: relative;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 160px;
+  color: white;
+  font-family: verdana;
+  height: 130vh;
+}
+
+form textarea {
+  background-color: transparent;
+  border: 2px solid white;
+  height: 50px;
+}
+form {
+  font-size: 18px;
+  display: grid;
+  padding: 50px;
+  border: 2px solid white;
+  backdrop-filter: blur(40px);
+  width: 30%;
+  color: white;
+  font-family: verdana;
+}
+form textarea
+{
+  font-size: 20px;
+  color: white;
+}
+form button,
+input {
+  left: 5%;
+  position: relative;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  background: transparent;
+  font-size: 25px;
+  width: 400px;
+  height: 50px;
+  transition: 0.5s;
+}
+form button:hover {
+  color: black;
+  transform: translateY(-10px);
+  background-color: white;
+  border-color: black;
+}
+form input:hover {
+  color: black;
+  transform: translateY(-10px);
+  background-color: white;
+  border-color: black;
+}
+
+.custom-file-upload {
+  cursor: pointer;
+  height: 20px;
+  width: 215px;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  bottom: 36px;
+  left: 130px;
+}
+span:hover {
+  text-decoration: underline white;
+}
+label:hover {
+  background-color: white;
+  color: black;
+}
+.titulo {
+  z-index: 1;
+  border: 3px solid black;
+  color: white;
+  left: 0px;
+  top: 0px;
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+.titulotexto {
+  position: relative;
+  top: 15px;
+  left: -50px;
+  float: left;
+  width: 390px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.iconesite {
+  left: 420px;
+  top: 10px;
+  float: left;
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+.botaousuario {
+  border-radius: 50px;
+  float: right;
+  cursor: pointer;
+  top: 3px;
+  position: relative;
+  right: 10px;
+  width: 90px;
+  height: 90px;
+  transition-duration: 0.5s;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.imagemusuario {
+  width: 100%;
+  height: 100%;
+}
+.botaousuario:hover {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 30px 5px #ffffff;
+}
+.botaousuario:hover {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 30px 5px #ffffff;
+}
+.navegacao2 {
+  top: 106.2px;
+  background-color: #1a1a1a;
+  left: 0px;
+  position: fixed;
+  height: 100%;
+  width: 90px;
+  font: bold;
+  font-family: verdana;
+  right: 2px;
+  display: block;
+  line-height: 30px;
+  font-size: 20px;
+  transition: 0.7s;
+}
+.botaoheader {
+  gap: 30px;
+  display: flex;
+  position: relative;
+  float: right;
+  width: 500px;
+  height: 100px;
+  right: 110px;
+}
+.about {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.about:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+}
+.about:hover i {
+  color: black;
+}
+.services {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.services:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid white;
+}
+.services:hover i {
+  color: black;
+}
+.contact {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.contact:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid white;
+}
+.contact:hover i {
+  color: black;
+}
+.clients {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.clients:hover {
+  text-decoration: underline;
+  background-color: white;
+  border: 1px solid white;
+}
+.clients:hover i {
+  color: black;
+}
+i {
+  color: white;
+  font-size: 35px;
+}
+span {
+  font-size: 20px;
+}

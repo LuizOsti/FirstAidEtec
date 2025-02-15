@@ -1,0 +1,347 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fotofundo {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background-image: url("fundo.gif");
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: 110px;
+  font-family: Verdana;
+  top: 40vh;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  backdrop-filter: blur(50px);
+  width: 60%;
+  min-height: 85vh;
+}
+.nome {
+  height: 90px;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+}
+.nome img {
+  border-radius: 40px;
+}
+.container-pergunta {
+  color: white;
+  font-size: 18px;
+}
+.form-publicação {
+  width: 100%;
+}
+button {
+  width: 30%;
+}
+
+.titulo {
+  align-items: center;
+  gap: 60px;
+  display: flex;
+  border: 3px solid black;
+  color: white;
+  left: 0px;
+  top: 0px;
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+.titulotexto {
+  gap: 10px;
+  flex-direction: row;
+  display: flex;
+  width: 520px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.iconesite {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+.botaousuario {
+  margin-right: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  transition-duration: 0.5s;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.imagemusuario {
+  width: 100%;
+  height: 100%;
+}
+.botaousuario:hover {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 30px 5px #ffffff;
+}
+.botaoheader {
+  gap: 20px;
+  display: flex;
+  width: 500px;
+  height: 100px;
+}
+form {
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  height: 20px;
+}
+form .input-pesquisa {
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+
+  height: 40px;
+}
+form .input-pesquisa:focus {
+  outline: none;
+}
+form .input-pesquisa::placeholder {
+  font-size: 20px;
+  color: white;
+}
+form .input-envia {
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  width: 75px;
+  height: 43px;
+}
+form .input-envia:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.about {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.about:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+}
+.about:hover i {
+  color: black;
+}
+.services {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.services:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid white;
+}
+.services:hover i {
+  color: black;
+}
+.contact {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.contact:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid white;
+}
+.contact:hover i {
+  color: black;
+}
+.clients {
+  cursor: pointer;
+  border: none;
+  background-color: #1a1a1a;
+  width: 100px;
+  height: 100px;
+  transition: 0.7s;
+}
+.clients:hover {
+  text-decoration: underline;
+  background-color: white;
+  border: 1px solid white;
+}
+.clients:hover i {
+  color: black;
+}
+i {
+  color: white;
+  font-size: 35px;
+}
+span {
+  font-size: 20px;
+}
+.area-do-perfil {
+  border-bottom: 2px solid white;
+  z-index: 1;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+  left: 0%;
+  width: 940px;
+  height: 120px;
+}
+.imagem-area-perfil {
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 50px;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+a {
+  text-decoration: none;
+  font-family: verdana;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+.area-do-perfil textarea {
+  display: flex;
+
+  width: 600px;
+  height: 23px;
+  resize: none;
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+.area-do-perfil textarea::placeholder {
+  text-align: bottom;
+  color: gray;
+  font-size: 20px;
+}
+.area-do-perfil textarea:focus {
+  outline: none;
+}
+.area-do-perfil form {
+  height: 100px;
+  flex-direction: column;
+  display: flex;
+  width: 605px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.area-do-perfil input {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.container-imagem-nome {
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.container-imagem-nome span {
+  color: white;
+}
+.resposta {
+  color: white;
+  font-family: verdana;
+}
+.container-pergunta {
+}
+.container-pergunta input {
+  width: 90px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.container-resposta input {
+  width: 90px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.container-resposta img {
+  border-radius: 40px;
+}
+.form-resposta input {
+  width: 90px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.form-resposta {
+  margin-bottom: 10px;
+}
+.form-resposta textarea {
+  text-align: bottom;
+  color: black;
+  font-size: 20px;
+  width: 400px;
+  resize: none;
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+.form-resposta textarea:focus {
+  outline: none;
+}
+.container-resposta {
+  color: white;
+  min-height: 15vh;
+}

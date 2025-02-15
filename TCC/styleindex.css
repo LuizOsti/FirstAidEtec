@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  align-items: center;
+  background-color: #1a1a1a;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  background-image: url("fundo.gif");
+}
+.titulo {
+  pointer-events: none;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: #0c0d0d;
+  position: relative;
+  top: 40px;
+  color: white;
+  font-size: 80px;
+  width: 700px;
+  height: 90px;
+}
+
+.caixalogin {
+  backdrop-filter: blur(80px);
+  color: white;
+  top: 20%;
+  backdrop-filter: blur(10%);
+  border: 2px solid white;
+  width: 500px;
+  height: 500px;
+  background-color: none;
+  border-radius: 8px;
+  text-align: center;
+  position: fixed;
+  justify-content: center;
+}
+.caixalogin input {
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 60px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.7s;
+}
+
+.caixalogin form i {
+  top: 5px;
+  left: 25px;
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+.campoformulario {
+  position: relative;
+  top: 90px;
+  text-align: center;
+  overflow: visible;
+}
+.campoformulario input::placeholder {
+  color: white;
+  overflow: visible;
+  position: absolute;
+  left: 42%;
+}
+
+.inputemail {
+  text-align: center;
+  position: relative;
+  left: 20px;
+}
+input:hover::placeholder {
+  color: black;
+}
+.inputemail:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+.inputsenha {
+  text-align: center;
+  position: relative;
+  left: 20px;
+}
+
+.inputsenha:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+.enviaformulario {
+  text-align: center;
+  cursor: pointer;
+  left: 2px;
+  top: 120px;
+  position: relative;
+  font-size: 20px;
+}
+
+.enviaformulario:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  transform: translateY(-9px);
+  box-shadow: 0px 0px 50px 5px #ffffff;
+}
+
+.titulologin {
+  position: relative;
+  top: 35px;
+  color: white;
+  font-size: 40px;
+}
+
+.botaocadastro {
+  position: relative;
+  color: white;
+  top: 160px;
+}
+.botaocadastro a {
+  color: white;
+  text-decoration: none;
+  transition-duration: 0ms;
+}
+.botaocadastro a:hover {
+  text-decoration: underline;
+}
+.iconeolho {
+  top: 15px;
+
+  float: left;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  position: relative;
+  transition-duration: 0.7s;
+}
+.iconeolho:hover {
+  transform: translateY(-7px);
+}
+.olho-esquece i {
+  left: 15px;
+  top: -5px;
+  color: white;
+  font-size: 30px;
+  position: relative;
+}
+.olho-esquece {
+  left: 90px;
+  top: 100px;
+  width: 300px;
+  height: 40px;
+  position: relative;
+}
+.olho-esquece a:hover {
+  text-decoration: underline;
+}
+.esqueceusenha {
+  float: right;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  top: 15px;
+  position: relative;
+}
