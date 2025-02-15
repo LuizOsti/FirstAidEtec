@@ -13,8 +13,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="icon" type="image/png" href="iconesite.png">
-    <link rel="stylesheet" type="text/css" href="styleautorisco.css">
+    <link rel="icon" type="image/png" href="Imagens/iconesite.png">
+    <link rel="stylesheet" type="text/css" href="Css/styleautorisco.css">
     <title>FirstAid.com</title>
   </head>
 
@@ -25,7 +25,7 @@
 
 		<div class="titulotexto">
 			FIRST AID.COM
-			<img class="iconesite" src="iconesite.png">
+			<img class="iconesite" src="Imagens/iconesite.png">
 		</div>
 
 
@@ -76,7 +76,7 @@
           e mais envolvidos no acidentee ligar imediatamente para o SAMU (192) ou para o corpo de bombeiros
           (193) ou para a policia militar (190)<br><br>
 
-          Lembrando também que a maioria das dicas dadas na parte de <a href="basico.html">primeiros socorros basicos</a> podem ser e devem ser
+          Lembrando também que a maioria das dicas dadas na parte de <a href="basico.php">primeiros socorros basicos</a> podem ser e devem ser
           usadas dependendo da situação atual
 
         </div>
